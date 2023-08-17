@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tables</title>
+  <link rel="stylesheet" href="table-style.css">
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th class="empty"></th>
+        <th scope="col">First</th>
+        <th scope="col">Second</th>
+        <th scope="col">Third</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Numbers</th>
+        <td colspan="1">100</td>
+        <td rowspan="2">200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <th scope="row">Letters</th>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Chickens</th>
+        <td>Ron</td>
+        <td>Kenny</td>
+        <td>Alz</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

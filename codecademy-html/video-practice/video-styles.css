@@ -1,0 +1,9 @@
+.regular-video {
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid rebeccapurple;
+}
+
+.regular-embed {
+    height: auto;
+}

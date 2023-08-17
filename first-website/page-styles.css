@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inside-box {
+    padding: 10px;
+}
+
+.left-align {
+    margin-left: 10px;
+}
+
+.top-page {
+    margin: 10px;
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.no-bullet {
+    list-style: none;
+}
+
+.mid-page {
+    margin: 10px;
+    background-color: deepskyblue;
+}
+
+.information {
+    margin-bottom: 10px;
+}
+
+.poem {
+    font-style: italic;
+}
+
+.bottom-page {
+    margin: 10px;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.column-image {
+    float: left;
+    width: 31%;
+    margin: 30px 1.15%;
+}

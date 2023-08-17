@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("my-pictures/flower-pic.jpg");
+    background-size: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2 {
+    margin: 50px;
+    text-align: center;
+    font-family: "Arial Black", serif;
+    color: white;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 15px;
+    min-height: 60%;
+}
+
+section {
+    margin: 0 auto;
+    overflow: scroll;
+    height: 750px;
+    min-height: 100%;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+#right {
+    width: 50%;
+}
+
+div {
+    margin-bottom: -10px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#left div {
+}
+
+#right div {
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+#left img:active {
+    position: absolute;
+    top: 149px;
+    left: 40px;
+    width: fit-content;
+    height: 75%;
+    border-radius: 15px;
+}
+
+#right img:active {
+    position: absolute;
+    top: 149px;
+    right: 40px;
+    width: fit-content;
+    height: 75%;
+    border-radius: 15px;
+}
+
+h1:hover,
+h2:hover {
+    transform: scale(1.1);
+}

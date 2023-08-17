@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+th, td {
+    width: 75px;
+    padding: 7px;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    height: 30px;
+}
+
+thead {
+    font-style: italic;
+    font-size: large;
+    color: darkblue;
+    text-shadow: 1px 1px gray;
+}
+
+.empty {
+    border: none;
+}
+
+table {
+    margin: auto;
+}

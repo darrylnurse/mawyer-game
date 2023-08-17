@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+</head>
+<body>
+  <h1>China is wonderful</h1>
+  <span>Anatotitan</span>
+  <p>Perucetus colossus</p>
+  <form action="./receive-info.html" method="POST">
+    <h1>This is Anything</h1>
+    <p>You can do what you want here!</p>
+    <div>
+      <a href="#test"><label for="test">What is the Wisconsin?</label></a>
+      <br>
+      <input id="test" type="text" name="first-text-field">
+    </div>
+    <div>
+      <label for="user-password">Password NOW!</label>
+      <br>
+      <input id="user-password" type="password" name="user-password" pattern="[0-9]{55,56}" required>
+    </div>
+    <div>
+      <label for="user-number">How many passwords you have?</label>
+      <br>
+      <input id="user-number" type="number" name="user-number" step="2">
+    </div>
+    <div>
+      <label for="user-range">What is you?</label>
+      <br>
+      <input id="user-range" type="range" min="1" max="5" name="user-range" step="1">
+    </div>
+    <div>
+      <p>Which</p>
+      <label for="balsamic">Balsamic</label>
+      <input id="balsamic" type="checkbox" name="user-checkbox" value="balsamic"> <!--name attribute is all the same so only one value is stored-->
+      <br>
+      <label for="xin-zhao">Xin Zhao</label>
+      <input id="xin-zhao" type="checkbox" name="user-checkbox" value="xin-zhao">
+      <br>
+      <label for="appalachian">Appalachian</label>
+      <input id="appalachian" type="checkbox" name="user-checkbox" value="appalachian">
+    </div>
+    <div>
+      <p>
+        <span>Are you stinkist?</span>
+        <br>
+        <input id="yes" type="radio" name="response" value="yes" required>
+        <label for="yes">Yes</label>
+        <input id="yes-but" type="radio" name="response" value="yes">
+        <label for="yes-but">Yes but in black</label>
+      </p>
+    </div>
+    <div>
+      <label for="chicken">Who da best chicken</label>
+      <select id="chicken" name="chicken" required>
+        <option value="Randall">Randall</option>
+        <option value="George">George</option>
+        <option value="Bennett">Bennett</option>
+      </select>
+    </div>
+    <div>
+      <p>
+        <label for="item">Best Mythic on Dredge?</label>
+        <input type="text" list="items" id="item" name="item">
+        <datalist id="items">
+          <option value="Morlock's Regime"></option>
+          <option value="Spear of Adaptability"></option>
+          <option value="Stick"></option>
+          <option value="Bulwark of Tensite"></option>
+          <option value="Meteoric Cesti"></option>
+          <option value="Goredrinker"></option>
+        </datalist>
+      </p>
+    </div>
+    <div>
+      <label for="essay">Write 10000-word essay OR ELSE</label>
+      <br>
+      <textarea id="essay" name="essay" rows="3" cols="24" minlength="22" maxlength="29" required>DO NOT WRITE IN HERE!</textarea>
+    </div>
+    <div>
+      <p><input type="submit" value="BALLS"></p>
+    </div>
+  </form>
+</body>
+</html>
