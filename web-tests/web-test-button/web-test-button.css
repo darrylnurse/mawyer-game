@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Imprint MT Shadow", serif ;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+    transition: transform 50ms, box-shadow 50ms;
+}
+
+.button:active {
+    transform: translate(0.125rem, 0.125rem);
+    box-shadow: 0.125rem 0.125rem #121212;
+}
